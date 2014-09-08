@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+>
+
+    <Spinner
+        android:id="@+id/operatorSpinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/operatorButton"
+        android:layout_toRightOf="@+id/operatorButton"
+        android:entries="@array/car_array"
+        android:prompt="@string/Choose_car" />
+
+    <TextView
+        android:id="@+id/operatorButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="15dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="99dp"
+        android:text="@string/make"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/circleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/operatorButton"
+        android:layout_below="@+id/operatorSpinner"
+        android:layout_marginTop="18dp"
+        android:text="@string/city"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="25dp" />
+
+    <Spinner
+        android:id="@+id/circleSpinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/operatorSpinner"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/circleButton"
+        android:entries="@array/CarCircle_array"
+        android:prompt="@string/carChoose_Circle" />
+
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/circleButton"
+        android:layout_below="@+id/submit"
+        android:textColor="#000000" 
+         android:dividerHeight="5dp"
+      >
+    </ListView>
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/circleSpinner"
+        android:layout_toRightOf="@+id/operatorButton"
+        android:text="@string/submit" />
+
+</RelativeLayout>

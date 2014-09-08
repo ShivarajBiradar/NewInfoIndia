@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">NewInfoIndia</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="submit">Submit</string>
+    <string name="operator">Operator</string>
+    <string name="circle">Circle</string>
+    <string name="make">Make</string>
+    <string name="city">City</string>
+    <string name="text">Text</string>
+    <string name="text1">Telcom</string>
+    <string name="value">Value</string>
+    <string name="talktime">Talktime</string>
+    <string name="validity">validity</string>
+    <string name="decription">SDecription</string>
+    <string name="moperator">Moperator</string>
+    <string name="coperator">coperator</string>
+    <string name="Decription">Decription</string>
+    <string name="drawer_open">Slider Menu Opened</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+    <string name="date">Date</string>
+    <string name="tvalue">Value</string>
+    <string name="ttalk">Talktime</string>
+    <string name="tvali">Validity</string>
+    <string name="tsd">SDesception</string>
+    <string name="td">Decription</string>
+    <string name="tmodel">Model</string>
+    <string name="tfuel">Fuel_type</string>
+    <string name="tprice">Price</string>
+    <string name="tstate">State</string>
+    <string name="tdate">Crawl_date</string>
+    <string name="tminimum">Min_Temp</string>
+    <string name="wtdate">Date</string>
+    <string name="tmaximum">Min_Temp</string>
+    <string name="tmoon">Moonset</string>
+    <string name="tsun">Sunset</string>
+
+    <!--  -->
+    <string name="Choose_Telcom">Select A Technology</string>
+
+    <string-array name="telcome_array">
+        <item>Vodafone</item>
+        <item>Idea</item>
+        <item>Aircel</item>
+        <item>Airtel</item>
+        <item>BSNL</item>
+    </string-array>
+
+    <string name="Choose_Circle">Select A Technology</string>
+
+    <string-array name="Circle_array">
+        <item>Karnataka</item>
+        <item>Delhi</item>
+        <item>Chennai</item>
+        <item>Maharashtra</item>
+    </string-array>
+
+    <string name="Choose_dth">Select A DTH</string>
+
+    <string-array name="dth_array">
+        <item>DishTv</item>
+        <item>Videocon</item>
+        <item>Airtel</item>
+    </string-array>
+
+    <string name="dthChoose_Circle">Select A DTHCircle</string>
+
+    <string-array name="dthCircle_array">
+        <item>ALL</item>
+        <item>South</item>
+    </string-array>
+
+    <string name="Choose_car">Select A CAR</string>
+
+    <string-array name="car_array">
+        <item>Skoda</item>
+        <item>Fiat</item>
+        <item>Hyundai</item>
+        <item>Mitsubishi</item>
+        <item>Renault</item>
+        <item>Maruti</item>
+    </string-array>
+
+    <string name="carChoose_Circle">Select A CarCity</string>
+
+    <string-array name="CarCircle_array">
+        <item>BANGALORE</item>
+        <item>Mysore</item>
+        <item>Chennai</item>
+        <item>Delhi</item>
+        <item>Kolkata</item>
+    </string-array>
+
+    <string name="Choose_weather">Select A city</string>
+
+    <string-array name="city_array">
+        <item>Bengaluru</item>
+        <item>Chennai</item>
+        <item>Kolkata</item>
+        <item>Hyderabad</item>
+        <item>Pune</item>
+    </string-array>
+
+    <string name="weatherChoose_date">Select A Date</string>
+
+    <string-array name="WeatherCircle_date">
+        <item>20140905</item>
+        <item>20140904</item>
+        <item>20140903</item>
+        <item>20140902</item>
+        <item>20140901</item>
+        <item>20140831</item>
+        <item>20140830</item>
+        <item>20140829</item>
+    </string-array>
+
+    <!--  -->
+
+
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item>Telcom</item>
+        <item>DTH Data</item>
+        <item>Car Details</item>
+        <item>Weather</item>
+    </string-array>
+
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/telcom</item>
+        <item>@drawable/dth</item>
+        <item>@drawable/car</item>
+        <item>@drawable/weather</item>
+           -</array>
+
+    <string name="title_activity_search_">Search_Activity</string>
+    <string name="title_activity_spinner_">Spinner_Activity</string>
+    <string name="title_activity_facebook">FacebookActivity</string>
+    <string name="app_id">1501402810104026</string>
+    <string name="title_activity_skip">SkipActivity</string>
+    <string name="title_activity_fb">FbActivity</string>
+    <string name="title_activity_splash">SplashActivity</string>
+
+</resources>
